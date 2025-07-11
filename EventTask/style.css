@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 2rem;
+    color: white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: all 1s ease;
+    background-color: #88B6F2;
+}
+#main{
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid royalblue;
+}
+
+.sub-main{
+    width: 250px;
+    height: 250px;
+    background:linear-gradient(to bottom right,#88B6F2,#9BC1F2,#024059,#DFE9F2,#011F26);
+    border-radius: 3px;
+}
