@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Product Page</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<form id="form">
+				<input
+					id="movieName"
+					type="text"
+					placeholder="Enter Movie Name"
+					required
+				/>
+				<input
+					id="movieUrl"
+					type="text"
+					placeholder="Enter Movie Img URl"
+					required
+				/>
+				<input
+					id="movieYear"
+					type="number"
+					placeholder="Enter Movie Year"
+					required
+				/>
+				<button>Add Movie</button>
+			</form>
+            <div class="inputFilterDiv">
+                <label>Filter By Year</label>
+                <input class="inputFilter" type="number" placeholder="Filter By Year" minlength="4">
+            </div>
+		</div>
+		<div class="main"></div>
+		<script src="script.js"></script>
+	</body>
+</html>
