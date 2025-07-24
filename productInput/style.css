@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background: linear-gradient(to bottom left,rgb(20, 2, 29) );
     color: white;
 }
 
@@ -19,7 +19,7 @@ form{
 }
 
 .container{
-    background-color: red;
+    background-color: rgb(166, 162, 162);
     padding: 2rem;
 }
 

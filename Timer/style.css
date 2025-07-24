@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p{
+    font-size: 2rem;
+}
+
+button{
+    padding: 0.3rem 2rem;
+    border: 1px solid royalblue;
+    border-radius: 3px;
+}

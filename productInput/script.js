@@ -38,7 +38,8 @@ const displayMovieCard = (movieProduct) => {
 		movieDiv.classList = "movieContent";
 		movieDiv.append(movieImg, movieh2, movieYearPara);
 		mainDiv.appendChild(movieDiv);
-	});
+    });
+    
 };
 
 filterInputData.addEventListener("input", (e) => {

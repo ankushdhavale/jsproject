@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FakeStore</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<nav>
+				<h3>FakeStore</h3>
+				<div class="cart">
+					<i class="fa fa-shopping-cart"></i>
+					<p>cart</p>
+				</div>
+			</nav>
+			<div class="main">
+				<div class="sub-main">
+					<div class="sidebar">
+						<button class="allProduct" value="all">All Products</button>
+						<button class="jeProduct" value="Jewelery">Jewelery</button>
+						<button class="elProduct" value="Electronics">Electronics</button>
+						<button class="mCloProduct" value="men's clothing">
+							Men`s Clothing
+						</button>
+						<button class="wCloProduct" value="women's clothing">
+							Women`s Clothing
+						</button>
+					</div>
+					<div class="inpDiv">
+						<span>Price: </span>
+						<input class="rangeInp" type="range" id="" max="1000" min="10" />
+					</div>
+					<div class="checkDiv">
+						<div class="checkInp">
+							<input
+								class="starFourAbove"
+								type="checkbox"
+								name=""
+								id=""
+								value="4"
+							/><span>4 <span class="star">★</span> & above</span>
+						</div>
+						<div class="checkInp">
+							<input
+								class="starTwoAbove"
+								type="checkbox"
+								name=""
+								id=""
+								value="2"
+							/><span>2 <span class="star">★</span> & above</span>
+						</div>
+					</div>
+				</div>
+				<div class="productCard"></div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
