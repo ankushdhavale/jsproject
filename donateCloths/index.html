@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wish</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <header class="header">
+        <div class="logo">
+            <img src="./assets//logo.png" alt="The Wish" width="200"> 
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Enter something to search" class="searchInp">
+        </div>
+        <nav class="navbar">
+           <ul class="navbar-link">
+            <li><a href="" class="">Home</a></li>
+            <li><a href="./Donate.html" target="_blank" class="">Donate</a></li>
+            <li><a href="./Events.html" target="_blank" class="">Events</a></li>
+            <li><a href="./Contact.html" target="_blank" class="">Contact</a></li>
+           </ul>
+        </nav>
+    </header>
+    <div class="filter">
+        <select class="age" name="age" id="">
+            <option value="age">Age</option>
+            <option value="adult">Adult</option>
+            <option value="teen">Teen</option>
+            <option value="child">Child</option>
+        </select>
+        <select class="size" name="size" id="">
+            <option value="size">Size</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+            <option value="xxl">XXL</option>
+
+        </select>
+        <select class="gender" name="gender" id="">
+            <option value="gender">Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="unisex">Unisex</option>
+        </select>
+    </div>
+        <div id="productList"></div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
